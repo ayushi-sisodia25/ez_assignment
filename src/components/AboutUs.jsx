@@ -17,7 +17,7 @@ function AboutUs() {
         </p>
         <div className="flex ">
           <div className="w-40  tablet:w-[235px] rotate-10 relative left-5 laptop:left-5">
-            <img src="Ez_Labs_Assignment/assets/Note-Page.svg" alt="notesPage" />
+            <img src="Note-Page.svg" alt="notesPage" />
             <span className="absolute top-1 left-10 tablet:left-15 pt-5 ">
               <p className="text-4xl tablet:text-7xl laptop:text-[80px] font-text text-[#103255]">
                 85+
@@ -32,7 +32,7 @@ function AboutUs() {
             </span>
           </div>
           <div className="w-40  tablet:w-[235px] rotate-10 relative">
-            <img src="Ez_Labs_Assignment/assets/Note-Page.svg" alt="notesPage" />
+            <img src="Note-Page.svg" alt="notesPage" />
             <span className="absolute top-1 left-10 tablet:left-15 pt-5 ">
               <p className="text-4xl tablet:text-7xl laptop:text-[80px] font-text text-[#103255]">
                 50+
@@ -47,7 +47,7 @@ function AboutUs() {
             </span>
           </div>
           <div className="w-40  tablet:w-[235px] rotate-10 relative right-5 laptop:right-5">
-            <img src="Ez_Labs_Assignment/assets/Note-Page.svg" alt="notesPage" />
+            <img src="Note-Page.svg" alt="notesPage" />
             <span className="absolute top-1 left-10 tablet:left-15 pt-5 ">
               <p className="text-4xl tablet:text-7xl laptop:text-[80px] font-text text-[#103255]">
                 10+
@@ -78,7 +78,7 @@ function AboutUs() {
         </h1>
 
         <img
-          src="Ez_Labs_Assignment/assets/About.svg"
+          src="About.svg"
           alt="mountainImage"
           className="hidden laptop:block w-[820px] relative -bottom-[30px]"
         />

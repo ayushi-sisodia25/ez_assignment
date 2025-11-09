@@ -8,14 +8,14 @@ function AboutTeam() {
        p-2.5 tablet:p-0 snap-start min-w-screen min-h-screen py-20 laptop:py-0 laptop:px-[26px] flex flex-col laptop:flex-row justify-evenly items-center"
     >
       <img
-        src="Ez_Labs_Assignment/assets/team/Indiagate.svg"
+        src="team/Indiagate.svg"
         className=" hidden laptop:block absolute tablet:left-10 laptop:left-20
          bottom-10  tablet:w-[350px]  laptop:w-[442px] laptop:h-[200px]"
         alt="Indiagate image"
       />
       <div className="absolute top-20 laptop:top-5 laptop:left-48  tablet:-rotate-10 tablet:w-[500px] laptop:w-[540px] h-[500.64px] flex flex-col items-center gap-4 text-center">
         <img
-          src="Ez_Labs_Assignment/assets/team/paperClip.svg"
+          src="team/paperClip.svg"
           alt="paper clip"
           className="w-[500px]"
         />
@@ -34,7 +34,7 @@ function AboutTeam() {
         "
       >
         <img
-          src="Ez_Labs_Assignment/assets/team/People.svg"
+          src="team/People.svg"
           alt="People image"
           className="
       w-[500px]  tablet:w-[1050px]"

@@ -22,9 +22,9 @@ function Portfolio() {
         </div>
         {/* Video*/}
         <div className="relative top-20">
-          <img src="Ez_Labs_Assignment/assets/portfolio/portfolio.svg" alt="video" className="tablet:w-[980px] " />
+          <img src="portfolio/portfolio.svg" alt="video" className="tablet:w-[980px] " />
           <img
-            src="Ez_Labs_Assignment/assets/portfolio/Play.svg"
+            src="portfolio/Play.svg"
             alt="playbtn"
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hover:scale-115 cursor-pointer w-[50px] tablet:w-[100px]"
           />
@@ -33,7 +33,7 @@ function Portfolio() {
 
       {/* bottom circle */}
       <img
-        src="Ez_Labs_Assignment/assets/Footerircle.svg"
+        src="Footerircle.svg"
         alt="footercircle"
         className="absolute -z-10 top-1/2  translate-x-full"
       />

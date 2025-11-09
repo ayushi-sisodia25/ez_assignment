@@ -18,7 +18,7 @@ function Navbar({ active }) {
      {/* Logo */}
         <a href="#hero">
           <img
-            src="Ez_Labs_Assignment/assets/Logo.svg"
+            src="Logo.svg"
             alt="Logo"
             className={`${
               isHero ? "opacity-0 pointer-events-none" : "opacity-100"
@@ -51,7 +51,7 @@ function Navbar({ active }) {
                  onClick={() => setIsOpen(false)}
               >
                 <p>Let’s Talk</p>
-                <img src="Ez_Labs_Assignment/assets/mail.png" alt="mail" />
+                <img src="mail.png" alt="mail" />
               </a>
             </li>
           </ul>
@@ -80,7 +80,7 @@ function Navbar({ active }) {
                 onClick={() => setIsOpen(false)}
               >
                 <p>Let's Talk</p>
-                <img src="Ez_Labs_Assignment/assets/mail.png" alt="mail" className="w-5 h-5" />
+                <img src="mail.png" alt="mail" className="w-5 h-5" />
               </a>
             </li>
           </ul>
@@ -90,7 +90,7 @@ function Navbar({ active }) {
             aria-expanded={isOpen}
           >
             <img
-              src={`Ez_Labs_Assignment/assets/${isOpen ? "Opened" : "Closed"}.svg`}
+              src={`${isOpen ? "Opened" : "Closed"}.svg`}
               alt="Toggle"
             />
           </button>
