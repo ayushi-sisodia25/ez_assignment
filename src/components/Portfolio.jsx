@@ -8,7 +8,7 @@ function Portfolio() {
     >
       {/* Camera Image */}
       <img
-        src="../../assets/portfolio/Cam.svg"
+        src="Cam.svg"
         alt="camera"
         className="hidden tablet:block w-[180px] right-4/5 absolute -z-10"
       />
@@ -22,9 +22,9 @@ function Portfolio() {
         </div>
         {/* Video*/}
         <div className="relative top-20">
-          <img src="portfolio/portfolio.svg" alt="video" className="tablet:w-[980px] " />
+          <img src="portfolio.svg" alt="video" className="tablet:w-[980px] " />
           <img
-            src="portfolio/Play.svg"
+            src="Play.svg"
             alt="playbtn"
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hover:scale-115 cursor-pointer w-[50px] tablet:w-[100px]"
           />

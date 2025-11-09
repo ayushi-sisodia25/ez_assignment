@@ -42,7 +42,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ff9d7db2;
-  background: url('public/assets/Background.svg');
+  background: url('Background.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

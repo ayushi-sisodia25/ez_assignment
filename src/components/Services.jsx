@@ -8,7 +8,7 @@ function Services() {
       id: "film",
       title: `"Filmmaking is a chance to live many lifetimes." - Robert Altman`,
       heading: "Film Production",
-      img: "service/FilmProduction.png",
+      img: "FilmProduction.png",
       content: `
 Art isn’t meant to sit on distant walls — it’s meant to breathe, to travel, to belong.<br/>
 Through every festival, every performance, and every gathering, we help stories find their stage and their people.<br/><br/>
@@ -25,7 +25,7 @@ V curates:<br/>
       id: "branding",
       title: `"A brand is a voice, and a product is a souvenir." - Lisa Gansky`,
       heading: "Branding",
-      img: "service/Branding.png",
+      img: "Branding.png",
       content: `
 A brand isn’t just what you see — it’s what you remember, what you carry home, and what you trust.<br/>
 We shape brands that people remember, return to, and fall in love with.<br/><br/>
@@ -43,7 +43,7 @@ V creates:<br/>
       id: "art",
       title: `"Art enables us to find ourselves and lose ourselves at the same time." - Thomas Merton`,
       heading: "Art Curation",
-      img: "service/ArtCuration.png",
+      img: "ArtCuration.png",
       content: `
 Art connects — it tells the stories we don’t always have words for.<br/>
 We curate exhibitions and installations that bring creators, collectors, and audiences together.<br/><br/>
@@ -84,7 +84,7 @@ V crafts:<br/>
       />
       {/* tape image only on laptop */}
       <img
-        src="service/tape.png"
+        src="tape.png"
         alt="tape"
         className={`absolute laptop:w-60 h-[110px] ${
           index === 0
@@ -113,7 +113,7 @@ V crafts:<br/>
             : "The storyboard reveals the breadth of our craft."}
         </h2>
         <img
-          src="service/stroke.svg"
+          src="stroke.svg"
           alt="stroke"
           className={`${
             activeService
@@ -132,7 +132,7 @@ V crafts:<br/>
             {[1, 2, 3, 4].map((num) => (
               <img
                 key={num}
-                src={`service/${activeService.id}/${num}.svg`}
+                src={`${num}.svg`}
                 alt={`bg-${num}`}
                 className={`absolute ${
                   num === 1
@@ -148,7 +148,7 @@ V crafts:<br/>
             <div className="absolute hidden laptop:flex bottom-20 right-5/12 translate-x-1/2 flex-col items-center">
               <p className="font-text text-[24px] mb-2">Explore Now</p>
               <img
-                src={`service/Vector.svg`}
+                src={`Vector.svg`}
                 alt="arrow"
               />
             </div>
@@ -159,7 +159,7 @@ V crafts:<br/>
             {/* Image Card */}
             <div className="laptop:max-w-[430px] bg-white p-4 tablet:p-5 shadow-[0px_11.4px_38px_0px_#00000040] flex flex-col items-center">
               <img
-                src={`service/${activeService.id}/main.png`}
+                src={`main.png`}
                 alt={activeService.heading}
                 className="max-w-full max-h-[400px] object-contain"
               />
@@ -215,7 +215,7 @@ V crafts:<br/>
 
           {/* Footer Strip */}
           <img
-            src="../../public/assets/service/Footer.svg"
+            src="Footer.svg"
             alt="footer-design"
             className="absolute bottom-0 -m-2.5 -z-20 object-cover"
           />
