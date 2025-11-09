@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ayushi-sisodia25.github.io/ez_labs_assignment/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
