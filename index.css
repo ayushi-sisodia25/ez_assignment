@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 720px;
+  --breakpoint-laptop: 1080px;
+  --breakpoint-ipad: 1366px;
+  --breakpoint-macbook: 1440px;
+}
+
+@layer base{
+  html {
+    font-size: 80%;
+  }
+}
+
+:root {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+  transition: all;
+  transition-duration: 150ms;
+  user-select: none;
+}
+/* Fonts */
+.font-sub-heading {
+  font-family: "Halant", serif;
+
+}
+.font-text {
+  font-family: "Instrument Sans", sans-serif;
+
+}
+.font-heading {
+  font-family: "Island Moments", cursive;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff9d7db2;
+  background: url('/assets/Background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fdd0c1;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
